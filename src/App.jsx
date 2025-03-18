@@ -1,7 +1,8 @@
 import Search from "./components/search";
+import { useState } from "react";
 
 const App = () => {
-  const [searchTerm, setSearchTerm] = useState(second)
+  const [searchTerm, setSearchTerm] = useState("")
 
   return (
     <main>
